@@ -1,0 +1,20 @@
+ALGORITHM Dot_Product
+
+PROCEDURE dot_product(var ps)
+VAR
+    v1, v2 : [3] = INTEGER;    
+BEGIN
+    v1.v2 = (a1*b1 + a2*b2 + a3*b3); //formula calculating the dot product of the vectors v1.v2
+    ps = v1.v2;
+END
+
+ALGORITHM Orthogonal_Vectors
+VAR
+     IR = a.b;
+BEGIN
+    IF (dot_product(IR) = 0) THEN
+        write("IR = orthogonal")
+    ELSE
+        write("not-orthogonal")
+    END_IF
+END
