@@ -1,8 +1,8 @@
 ALGORITHM Dot_Product
 
-PROCEDURE dot_product(var ps)
+PROCEDURE dot_product(ps: INTEGER)
 VAR
-    v1, v2 : [3] = INTEGER;    
+    v1, v2 : [3] : ARRAY OF THREE INTEGER;    
 BEGIN
     v1.v2 = (a1*b1 + a2*b2 + a3*b3); //formula calculating the dot product of the vectors v1.v2
     ps = v1.v2;
